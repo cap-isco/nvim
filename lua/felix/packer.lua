@@ -24,6 +24,7 @@ use('nvim-treesitter/nvim-treesitter', {run = ':TSUpdate'})
 use('theprimeagen/harpoon')
 use('mbbill/undotree')
 use('tpope/vim-fugitive')
+use('tpope/vim-commentary')
 
 use {
 	'VonHeikemen/lsp-zero.nvim',
@@ -45,6 +46,14 @@ use {
 		{'L3MON4D3/LuaSnip'},
 		{'rafamadriz/friendly-snippets'},
 	}
+}
+
+use {
+  'nvim-tree/nvim-tree.lua',
+  requires = {
+    'nvim-tree/nvim-web-devicons', -- optional, for file icons
+  },
+  tag = 'nightly' -- optional, updated every week. (see issue #1193)
 }
 
 end)
