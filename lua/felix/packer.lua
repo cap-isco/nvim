@@ -56,4 +56,8 @@ use {
   tag = 'nightly' -- optional, updated every week. (see issue #1193)
 }
 
+use {
+    "SmiteshP/nvim-navic",
+}
+
 end)
