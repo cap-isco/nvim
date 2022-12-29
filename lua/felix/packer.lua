@@ -60,4 +60,8 @@ use {
     "SmiteshP/nvim-navic",
 }
 
+use {
+    "junegunn/gv.vim",
+}
+
 end)
